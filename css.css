@@ -1,0 +1,286 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+  font-family: verdana;
+}
+body {
+  background-image: url("../images/fondo.jpg");
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 2.5%;
+
+}
+.reserva{
+  background-image: url("../Images/tri.jpg");
+}
+.banner1{
+  display: flex;
+  background-image: url("../images/vladi.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 0%;
+
+
+}
+
+.texto{
+  margin-top: 4.5%;
+  margin-right: 60%;
+}
+
+#logo{
+  height: 255px;
+  width: 550px;
+}
+
+
+#menu ul {
+  position: absolute;
+  top: 27.25%;
+  z-index: 2;
+  width: 100%;
+	display:flex;   /* Opcions en horitzontal */
+	list-style: none;   /* Sense vinyeta */
+	font-family: calibri;
+	padding: 0;
+	margin: 0;
+  background-color: black;
+}
+
+#menu a {
+	display: block;
+	width: auto;
+	padding: 10px 20px;
+	text-decoration: none;
+	color: red;
+  margin-left: 10px;
+}
+
+#menu a:hover {
+  border-radius: 25px;
+	background-color: cyan;
+	color:red;
+}
+
+#menu ul li ul {
+  margin-top: 1.8%;
+	display: none;
+	opacity: 0.9;
+}
+
+#menu ul li a:hover + ul, #menu ul li ul:hover {
+  border-radius: 25px;
+  border-top-left-radius: 0px;
+	display: block;
+  width: auto;
+}
+#menu2 ul {
+  position: absolute;
+  top: 0%;
+  z-index: 2;
+  width: 100%;
+	display:flex;   /* Opcions en horitzontal */
+	list-style: none;   /* Sense vinyeta */
+	font-family: calibri;
+	padding: 0;
+  margin:0;
+  background-color: black;
+}
+
+#menu2 a {
+	display: block;
+	width: auto;
+	padding: 10px 20px;
+	text-decoration: none;
+	color: red;
+  margin-left: 10px;
+}
+
+#menu2 a:hover {
+  border-radius: 25px;
+	background-color: cyan;
+	color:red;
+}
+
+#menu2 ul li ul {
+  margin-top: 1.8%;
+	display: none;
+	opacity: 0.9;
+}
+
+#menu2 ul li a:hover + ul, #menu2 ul li ul:hover {
+  border-radius: 25px;
+  border-top-left-radius: 0px;
+	display: block;
+  width: auto;
+}
+#login{
+  margin-left: 53%;
+}
+
+
+
+img.banner{
+  z-index: 1;
+  margin-top: 2.5%;
+  width: 100%;
+  height: 650px;
+
+}
+p,a{
+  font-size: 25px;
+  color: black;
+  text-decoration: none;
+}
+section{
+  width: 20%;
+  margin: 20px;
+
+}
+button{
+  margin: 10px;
+  background-color: Green;
+  padding: 10px;
+}
+span{
+  color: #FF0040;
+  font-size: 25px;
+
+}
+div.divPelis{
+  display: flex;
+}
+
+.logo{
+  margin-left: 20px;
+  padding-top: 20px;
+  height: 55px;
+  width: 55px;
+}
+footer{
+  display: flex;
+}
+main h1{
+  font-size: 55px;
+  margin-left: 2%;
+  color: White;
+  font-weight: bold;
+}
+.divPelis{
+  margin-right: 2%;
+  display: flex;
+}
+.peli{
+  margin-left: 2%;
+  height: 555px;
+  width: 455px
+}
+#titolPelis{
+  margin: 0;
+  margin-top: 5%;
+  font-size: 155px;
+  color: Cyan;
+  font-style: italic;
+  text-align: center;
+}
+.resumenPeli{
+  color: White;
+  font-size: 25px;
+  margin-right: 0;
+}
+.sectionPeli{
+  width: 20%;
+  margin-right: 5%;
+}
+.peli2{
+  height: auto;
+  width: 100%;
+}
+.mainPelis{
+  display: flex;
+
+}
+.tablaPelis{
+  margin-top: 5%;
+  width: 45%;
+  height: auto;
+  margin-left: 30%;
+  margin-top: 10%;
+  margin-bottom: 25%;
+  background-color: black;
+
+}
+.titolTabla{
+  text-align: center;
+  color: red;
+  font-size: 55px;
+  font-style: oblique;
+}
+.formTabla{
+  margin-top: 5%;
+  font-size: 25px;
+  color: red;
+  text-align: center;
+}
+.iniciar{
+  margin-top: 5%;
+  margin-left: 30%;
+  background-color: red;
+  color: cyan;
+  font-size: 35px;
+  text-align: center;
+  width: 35%;
+}
+.linkRegis{
+  color: red;
+  margin-left: 25%;
+}
+a.linkRegis:hover{
+  color: cyan;
+}
+input.iniciar:hover{
+  background-color: cyan;
+  color: red;
+}
+.divForm{
+  background-color: black;
+  width: auto;
+  margin: 2%;
+}
+.form{
+  margin-top: 5%;
+  font-size: 55px;
+  color: red;
+  text-align: center;
+}
+.labell{
+  margin-top: 5%;
+  font-size: 55px;
+}
+.regis{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 45%;
+  background-color: red;
+  color: cyan;
+  font-size: 55px;
+  text-align: center;
+  width: 15%;
+}
+input.regis:hover{
+  background-color: cyan;
+  color: red;
+}
+.silla{
+  height: 75%;
+  width:35%;
+}
+.divReserva{
+  display: flex;
+}
+.salar{
+  margin-left: 15%;
+}
+.sep{
+  margin-top: 5%;
+}
